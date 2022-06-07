@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.instagram-pagina {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.instagram-iphone {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-iphone img{
+    height: 700px;
+}
+
+.instagram-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 476px;
+}
+
+.instagram-logo {
+    height: 42px;
+}
+
+.instagram-perfil img {
+    height: 84px;
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.logout {
+    color: #0095f6;
+    margin-top: 14px;
+}
+
+.instagram-login {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 18.2px 0;
+    border: 1px solid lightgray;
+}
+
+.mudar-cadastrar-conta {
+    color: rgb(160, 160, 160);
+}
+
+.mudar-cadastrar-conta a {
+    color: #0095f6;
+}
+
+.baixar-app {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 14px;
+    flex-direction: column;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+}
+
+.app-download img {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;    
+}
+
+@media (max-width: 1024px) {
+    .instagram-pagina {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-pagina {
+        width: 90%;
+    }
+
+    .instagram-iphone {
+        display: none;
+    }
+
+    .instagram-usuario {
+        width: 100%;
+    }
+
+    .instagram-login {
+        border: none;
+    }
+}
+
+
